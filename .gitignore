@@ -1,0 +1,91 @@
+# === IDE settings ===
+*.iml
+*.ipr
+*.iws
+.idea/
+**/.idea/
+
+# === Build files ===
+out/
+target/
+build/
+bin/
+
+# === Gradle ===
+.gradle/
+**/.gradle/
+
+# === IntelliJ IDEA ===
+/shelf/
+/workspace.xml
+
+# === Datasource local storage ignored files ===
+/dataSources/
+/dataSources.local.xml
+
+# === Zeppelin (depricated) ===
+/ZeppelinRemoteNotebooks/
+
+# === Local settings ===
+**/resources/application-local.yml
+
+# === Node.js та Angular ===
+**/node_modules/
+**/apps/crm/**/dist/
+**/apps/registration/**/dist/
+**/.angular/
+**/icons/svg-symbols/index.ts
+
+# === Tailwind ===
+**/shared/ui/theme/**/tailwind.css
+**/shared/ui/theme/**/tailwind.config.js
+**/shared/ui/theme/**/tokens/colors.js
+
+# Except for tailwind.config.js within a tailwind-preset folder
+!**/shared/ui/theme/**/tailwind-preset/tailwind.config.js
+
+# === Storybook ===
+web/build-storybook.log
+
+# === Docker ===
+core/*/build/
+core/*/bin/
+core/data/
+core/docker-compose.yml
+# Docker PostgreSQL volume
+/core/pgdata/
+
+# === Terraform ===
+**/.terraform/*
+*.tfstate.*
+*.tfstate
+
+# === OS-specific ===
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# === Security files ===
+**/bash_profile
+**/cert.pem
+**/cert-key.pem
+**/gitlab_private_key
+**/aws/credentials
+**/aws_credentials
+**/aws_config
+
+# === nx cache ===
+.nx/installation/
+.nx/cache/
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Ignore encrypted files ===
+**/secrets.*
+**/secrets.json
+**/secret.env

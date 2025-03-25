@@ -1,0 +1,27 @@
+#kpacGrid {
+    /*border: 1px solid #a77a7a;*/
+    border: 1px solid #ccc;
+    /*margin-top: 10px;*/
+    margin: 0 auto;
+    width:100%;
+    /*max-width: 1000px;*/
+    height:400px; /* Фіксована висота таблиці */
+    overflow-x: auto; /* Додати горизонтальний скролл при необхідності */
+}
+
+.dhx_grid-cell {
+    text-align: center;
+}
+
+.delete-btn {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    background-color: #d9363e;
+}
