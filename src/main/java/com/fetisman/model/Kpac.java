@@ -11,7 +11,7 @@ import java.time.LocalDate;
 
 @Data
 public class Kpac {
-    private int id;
+    private long id;
     @NotBlank private String title;
     @NotBlank private String description;
     @NotNull
