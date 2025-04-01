@@ -120,7 +120,7 @@
         } else {
             const errors = await response.json();
             console.error('Validation errors:', errors);
-            alert('Помилка валідації: ' + JSON.stringify(errors));
+            alert('Validation error: ' + JSON.stringify(errors));
         }
     } catch (error) {
         console.error("Error adding K-PAC:", error);
