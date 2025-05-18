@@ -1,5 +1,4 @@
 # knowledge-pac
-Test task "K-PAC in K-PAC sets" of AurosKS comp.
 
 Subject description:
 In the process of developing a control system you’ve received a task to display the main entities
